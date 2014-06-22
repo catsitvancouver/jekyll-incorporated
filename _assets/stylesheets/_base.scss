@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5 {
     color:#263c4c;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family:$fontheadings;
 }
 
@@ -150,6 +150,14 @@ a {
                 }
                 
                 .icon-facebook {
+                     background-position:0px -14px;
+                 }
+                
+                .icon-yelp {
+                     background-position:0px -14px;
+                 }
+                
+                .icon-gplus {
                      background-position:0px -14px;
                  }
             }
@@ -295,7 +303,7 @@ table {
  }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/*  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   padding: 10px;
   background: #373737;
   color: #fff;

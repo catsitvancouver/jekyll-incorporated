@@ -8,7 +8,7 @@ inc:
   # Company information
   company:      Cat Sit Vancouver
   url:          http://www.catsitvancouver.com/
-  facebook:     catsitvancouver
+  #facebook:     catsitvancouver
   gplus:        '102756003309123126614'
   yelp:         cat-sit-vancouver-vancouver-3
   about_link:   /about/

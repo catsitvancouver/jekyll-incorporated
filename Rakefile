@@ -5,8 +5,8 @@ require "bundler/setup"
 require "jekyll"
 
 
-# Change your GitHub reponame eg. "kippt/jekyll-incorporated"
-GITHUB_REPONAME = ""
+# Change your GitHub reponame eg. "kippt/jekyll-incorporated" git@github.com:catsitvancouver/catsitvancouver.github.io.git
+GITHUB_REPONAME = "catsitvancouver/catsitvancouver.github.io"
 
 
 namespace :site do
@@ -29,7 +29,7 @@ namespace :site do
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
       system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-      system "git push origin master:refs/heads/gh-pages --force"
+      system "git push origin master:master --force"
     end
   end
 end
